@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+border: 3px solid rgba(0,0,0,1);
+padding:20px;
+font-family: "Quicksand", Georgia, sans-serif;
+font-weight: 500;
+font-size: 15px;
+margin: auto;
+min-width:890px;
+}
+
+#history{
+background-color: rgba(245,191,103,0.8);
+border:2px solid rgba(0,0,0,1);
+}
+
+#early-history{
+background-color: rgba(165,245,170,0.86);
+border:2px solid rgba(0,0,0,1);
+padding:10px;
+margin-bottom:20px;
+margin-top:20px;
+margin-left:2px;
+margin-right:2px;
+}
+
+#global-connections{
+    display:grid;
+    grid-template-columns:2;
+    grid-template-rows:2;
+    grid-gap:20px;
+}
+
+#global-header{
+    grid-column:1;
+    grid-row:1;
+    background-color: rgba(217,135,240,0.8);
+    border:2px solid rgba(0,0,0,1);
+    padding:10px;
+}
+
+#most-popular-albums{
+    grid-column:2;
+    grid-row:1;
+    background-color: rgba(133,178,240,0.8);
+    border:2px solid rgba(0,0,0,1);
+    padding:10px;
+}
